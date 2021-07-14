@@ -683,3 +683,4 @@ models:
         label: Mobile Number
       - name: content
         type: string
+        label: content
