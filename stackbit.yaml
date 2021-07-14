@@ -121,6 +121,8 @@ models:
           type: model
           models:
             - action
+      - name: ''
+        type: string
   doc_sections:
     type: data
     file: doc_sections.yml
