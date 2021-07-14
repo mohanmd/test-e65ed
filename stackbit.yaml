@@ -133,9 +133,6 @@ models:
       - name: col_text
         type: string
         label: Col Text
-      - name: ''
-        type: string
-        label: ''
   doc_sections:
     type: data
     file: doc_sections.yml
@@ -686,3 +683,4 @@ models:
         label: content
       - name: social
         type: string
+        label: Social
