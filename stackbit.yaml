@@ -669,10 +669,3 @@ models:
             - type: boolean
               name: relativeUrl
               label: Relative Url
-  footertop1:
-    type: object
-    label: footertop1
-    fields:
-      - name: content
-        type: string
-        label: mobile
