@@ -102,7 +102,7 @@ models:
     labelField: content
     fields:
       - type: string
-        name: mobile_number
+        name: content
         label: Footer Content
         description: The copyright text displayed in the footer
       - type: boolean
