@@ -124,7 +124,7 @@ models:
       - name: ''
         type: string
         label: ''
-      - name: ''
+      - name: grid
         type: string
   doc_sections:
     type: data
