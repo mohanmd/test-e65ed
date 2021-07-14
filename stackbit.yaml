@@ -664,16 +664,6 @@ models:
     label: footertop
     layout: footertop
     fields:
-      - name: colums
-        type: enum
+      - name: Left Content
+        type: string
         label: Left Content
-        options:
-          - three
-          - two
-        default: three
-      - name: grid_item
-        type: list
-        items:
-          type: model
-          models:
-            - grid_item
