@@ -660,9 +660,6 @@ models:
       - name: content
         type: string
         label: content
-      - name: action
-        type: url
-        label: Action
       - name: social
         type: list
         label: Social
