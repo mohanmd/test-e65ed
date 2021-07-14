@@ -52,7 +52,8 @@
                 "label": " ",
                 "url": "https://github.com/",
                 "style": "primary",
-                "has_subnav": false
+                "has_subnav": false,
+                "icon_class": "pinterest"
             }
         ]
     },
