@@ -677,3 +677,6 @@ models:
   footertop:
     type: object
     label: Footer Top
+    fields:
+      - name: ''
+        type: string
