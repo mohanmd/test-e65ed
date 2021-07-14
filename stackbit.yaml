@@ -121,8 +121,8 @@ models:
           type: model
           models:
             - action
-      - name: ''
-        type: string
+      - name: second_col
+        type: boolean
   doc_sections:
     type: data
     file: doc_sections.yml
