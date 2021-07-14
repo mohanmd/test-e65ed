@@ -108,7 +108,7 @@ models:
       - name: develop_info
         type: string
         label: Develop Information
-      - name: ''
+      - name: has_develop_info
         type: string
   doc_sections:
     type: data
