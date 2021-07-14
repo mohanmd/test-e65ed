@@ -107,7 +107,9 @@ models:
         description: The copyright text displayed in the footer
       - name: develop_info
         type: string
-        label: Mobile Number
+        label: Develop Information
+      - name: ''
+        type: string
   doc_sections:
     type: data
     file: doc_sections.yml
