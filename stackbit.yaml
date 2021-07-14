@@ -654,7 +654,7 @@ models:
     type: object
     label: Footer Top
     fields:
-      - name: mobile
+      - name: mobile_number
         type: string
         label: Mobile Number
       - name: content
