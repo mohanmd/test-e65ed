@@ -3,7 +3,7 @@ import CtaButtons from './CtaButtons';
 import DocsMenu from './DocsMenu';
 import DocsSubmenu from './DocsSubmenu';
 import Footer from './Footer';
-import Footer from './FooterTop';
+import FooterTop from './FooterTop';
 import Header from './Header';
 import Icon from './Icon';
 import SectionContent from './SectionContent';
