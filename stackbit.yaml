@@ -127,6 +127,7 @@ models:
       - name: grid
         type: boolean
         label: grid enable
+        default: false
   doc_sections:
     type: data
     file: doc_sections.yml
