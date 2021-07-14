@@ -664,4 +664,5 @@ models:
         type: list
         label: Social
         items:
-          type: string
+          type: model
+          models: []
