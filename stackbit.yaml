@@ -665,4 +665,5 @@ models:
         label: Social
         items:
           type: model
-          models: []
+          models:
+            - grid_item
