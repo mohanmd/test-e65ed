@@ -664,5 +664,5 @@ models:
     label: footertop
     layout: footertop
     fields:
-      - name: ''
+      - name: Left Content
         type: string
