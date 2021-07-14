@@ -680,3 +680,6 @@ models:
   footertop1:
     type: object
     label: footertop1
+    fields:
+      - name: ''
+        type: string
