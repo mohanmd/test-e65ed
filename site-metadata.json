@@ -23,7 +23,7 @@
                 "type": "action_menu"
             },
             {
-                "label": "Docs",
+                "label": "Markets",
                 "url": "/docs",
                 "style": "link",
                 "has_subnav": false
