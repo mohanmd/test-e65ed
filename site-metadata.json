@@ -105,6 +105,9 @@
         "type": "footertop",
         "mobile": "9710823803",
         "content": "Ajith Kumar",
-        "mobile_number": "9710823803"
+        "mobile_number": "9710823803",
+        "social": [
+            "lorem-ipsum"
+        ]
     }
 }
