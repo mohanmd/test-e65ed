@@ -667,3 +667,5 @@ models:
       - name: Left Content
         type: string
         label: Left Content
+      - name: ''
+        type: string
