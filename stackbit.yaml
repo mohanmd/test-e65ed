@@ -58,6 +58,7 @@ models:
       - name: footertop
         type: model
         models: []
+        label: Footertop
   header:
     type: object
     label: Header Configuration
@@ -672,3 +673,6 @@ models:
             - type: boolean
               name: relativeUrl
               label: Relative Url
+  footertop:
+    type: object
+    label: footertop
