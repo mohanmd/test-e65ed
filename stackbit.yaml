@@ -123,6 +123,9 @@ models:
             - action
       - name: ''
         type: string
+        label: ''
+      - name: ''
+        type: string
   doc_sections:
     type: data
     file: doc_sections.yml
