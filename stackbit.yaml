@@ -60,8 +60,6 @@ models:
         models:
           - footertop
         label: Footertop
-      - name: ''
-        type: string
   header:
     type: object
     label: Header Configuration
