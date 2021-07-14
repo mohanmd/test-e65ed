@@ -105,7 +105,7 @@ models:
         name: content
         label: Footer Content
         description: The copyright text displayed in the footer
-      - name: mobile_number
+      - name: develop_info
         type: number
         label: Mobile Number
   doc_sections:
@@ -652,16 +652,6 @@ models:
     fields:
       - name: mobile
         type: string
-        label: Mobile Number
-      - name: content
-        type: string
-        label: content
-      - name: social
-        type: list
-        label: Social
-        items:
-          type: string
-pe: string
         label: Mobile Number
       - name: content
         type: string
