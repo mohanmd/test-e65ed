@@ -123,6 +123,7 @@ models:
         label: Mobile Number
       - name: ''
         type: string
+        label: ''
   doc_sections:
     type: data
     file: doc_sections.yml
@@ -676,3 +677,5 @@ models:
         label: Social
         items:
           type: string
+      - name: ''
+        type: string
