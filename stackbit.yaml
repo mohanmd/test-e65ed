@@ -669,14 +669,6 @@ models:
             - type: boolean
               name: relativeUrl
               label: Relative Url
-  footertop:
-    type: page
-    label: footertop
-    layout: footertop
-    fields:
-      - name: Left Content
-        type: string
-        label: Left Content
   footertop1:
     type: object
     label: footertop1
