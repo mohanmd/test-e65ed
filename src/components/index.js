@@ -28,7 +28,8 @@ export {
     SectionGrid,
     SectionHero,
     Submenu,
-    Layout
+    Layout,
+    FooterTop
 };
 
 export default {
