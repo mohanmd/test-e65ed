@@ -83,5 +83,6 @@
             }
         ]
     },
-    "title": "Stackbit Libris Theme"
+    "title": "Stackbit Libris Theme",
+    "domain": "https://test-e65ed.netlify.app"
 }
