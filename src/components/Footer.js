@@ -20,7 +20,7 @@ export default class Footer extends React.Component {
                   </p>
                  <p className="develop-info">
                     {_.get(this.props, 'pageContext.site.siteMetadata.footer.develop-info', null) && (
-                    <span className="copyright">{htmlToReact(_.get(this.props, 'pageContext.site.siteMetadata.footer.content', null))}</span>
+                    <span className="copyright">{htmlToReact(_.get(this.props, 'pageContext.site.siteMetadata.footer.develop-info', null))}</span>
                     )}
                   </p>
                 </div>
