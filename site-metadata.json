@@ -25,6 +25,12 @@
                 "has_subnav": false
             },
             {
+                "label": "Careers",
+                "url": "/style-guide",
+                "style": "link",
+                "has_subnav": false
+            },
+            {
                 "label": "Sample Pages",
                 "url": "#",
                 "style": "link",
@@ -41,12 +47,6 @@
                         "style": "link"
                     }
                 ]
-            },
-            {
-                "label": "Careers",
-                "url": "/style-guide",
-                "style": "link",
-                "has_subnav": false
             },
             {
                 "label": "GitHub",
