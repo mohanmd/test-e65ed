@@ -657,6 +657,9 @@ models:
       - name: mobile_number
         type: string
         label: Mobile Number
+      - name: action
+        type: url
+        label: Action
       - name: content
         type: string
         label: content
@@ -665,6 +668,3 @@ models:
         label: Social
         items:
           type: string
-      - name: action
-        type: url
-        label: Action
