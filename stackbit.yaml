@@ -125,7 +125,7 @@ models:
         type: boolean
         default: false
         label: Second Col
-      - name: ''
+      - name: col_text
         type: string
   doc_sections:
     type: data
