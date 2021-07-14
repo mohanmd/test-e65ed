@@ -665,8 +665,11 @@ models:
     layout: footertop
     fields:
       - name: colums
-        type: string
+        type: enum
         label: Left Content
+        options:
+          - label: ''
+            value: ''
       - name: grid_item
         type: list
         items:
