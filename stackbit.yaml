@@ -105,13 +105,13 @@ models:
         name: content
         label: Footer Content
         description: The copyright text displayed in the footer
-      - name: develop_info
-        type: string
-        label: Develop Information
       - name: has_develop_info
         type: boolean
         label: Development Info
         default: true
+      - name: develop_info
+        type: string
+        label: Develop Information
   doc_sections:
     type: data
     file: doc_sections.yml
