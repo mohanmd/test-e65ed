@@ -7,6 +7,7 @@ import ActionLink from './ActionLink';
 export default class Footer extends React.Component {
     render() {
         return (
+            console.log(this.props)
             <footer id="colophon" className="site-footer outer">
               <div className="inner">
                 <div className="site-footer-inside">
