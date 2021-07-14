@@ -125,7 +125,7 @@ models:
         type: string
         label: ''
       - name: grid
-        type: string
+        type: boolean
   doc_sections:
     type: data
     file: doc_sections.yml
