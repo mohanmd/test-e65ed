@@ -130,6 +130,7 @@ models:
         label: Col Text
       - name: ''
         type: string
+        label: ''
   doc_sections:
     type: data
     file: doc_sections.yml
@@ -676,3 +677,6 @@ models:
       - name: Left Content
         type: string
         label: Left Content
+  footertop1:
+    type: object
+    label: footertop1
