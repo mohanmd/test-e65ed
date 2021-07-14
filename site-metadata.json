@@ -98,5 +98,8 @@
         "col_text": "column text"
     },
     "title": "Stackbit Libris Theme",
-    "domain": "https://test-e65ed.netlify.app"
+    "domain": "https://test-e65ed.netlify.app",
+    "footertop": {
+        "type": "footertop"
+    }
 }
