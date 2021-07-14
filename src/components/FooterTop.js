@@ -29,6 +29,7 @@ export default class FooterTop extends React.Component {
                       <ActionLink key={action_idx} {...this.props} action={action} />
                     ))}
                   </div>
+                  
                   {_.get(this.props, 'pageContext.site.siteMetadata.footer.has_social', null) && (
                     <div class="grid-item">
                         <div className="social-links">
