@@ -667,5 +667,5 @@ models:
       - name: Left Content
         type: string
         label: Left Content
-      - name: ''
+      - name: grid_item
         type: string
