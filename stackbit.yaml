@@ -56,7 +56,8 @@ models:
         models:
           - footer
       - name: ''
-        type: string
+        type: model
+        models: []
   header:
     type: object
     label: Header Configuration
