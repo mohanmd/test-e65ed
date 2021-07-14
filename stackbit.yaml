@@ -121,9 +121,6 @@ models:
       - name: mobile_number
         type: number
         label: Mobile Number
-      - name: ''
-        type: string
-        label: ''
   doc_sections:
     type: data
     file: doc_sections.yml
