@@ -678,5 +678,5 @@ models:
     type: object
     label: Footer Top
     fields:
-      - name: ''
+      - name: mobile
         type: string
