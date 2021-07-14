@@ -24,7 +24,7 @@ export default class Footer extends React.Component {
                   {_.get(this.props, 'pageContext.site.siteMetadata.footer.has_social', null) && (
                   <div className="social-links">
                     {_.map(_.get(this.props, 'pageContext.site.siteMetadata.footer.social_links', null), (action, action_idx) => (
-                      <ActionLink key={action_idx} {...this.props} action={action} />
+                    //   <ActionLink key={action_idx} {...this.props} action={action} />
                     ))}
                   </div>
                   )}
