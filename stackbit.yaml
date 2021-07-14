@@ -658,9 +658,8 @@ models:
         type: string
         label: Mobile Number
       - name: content
-        type: model
+        type: string
         label: content
-        models: []
       - name: social
         type: list
         label: Social
