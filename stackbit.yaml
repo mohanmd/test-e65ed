@@ -682,5 +682,7 @@ models:
         type: string
         label: content
       - name: social
-        type: string
+        type: list
         label: Social
+        items:
+          type: string
