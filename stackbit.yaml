@@ -666,4 +666,4 @@ models:
         items:
           type: string
       - name: action
-        type: string
+        type: url
