@@ -658,7 +658,7 @@ models:
         type: string
         label: Mobile Number
       - name: content
-        type: datetime
+        type: html
         label: content
       - name: social
         type: list
