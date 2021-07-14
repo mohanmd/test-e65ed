@@ -14,7 +14,7 @@ export default class FooterTop extends React.Component {
                 <div className="grid grid-col-3">
 
                   <div className="grid-item">
-                    {_.get(this.props, 'pageContext.site.siteMetadata.footertop.content', null) && (
+                    {_.get(this.props, 'pageContext.site.siteMetadata.footertop.mobile_number', null) && (
                     <span className="copyright">{htmlToReact(_.get(this.props, 'pageContext.site.siteMetadata.footertop.content', null))}</span>
                     )}
                     {_.map(_.get(this.props, 'pageContext.site.siteMetadata.footer.links', null), (action, action_idx) => (
