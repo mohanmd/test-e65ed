@@ -105,14 +105,6 @@ models:
         name: content
         label: Footer Content
         description: The copyright text displayed in the footer
-      - type: list
-        name: social_links
-        label: Social Links
-        description: List of social links in the footer
-        items:
-          type: model
-          models:
-            - action
       - name: mobile_number
         type: number
         label: Mobile Number
@@ -660,6 +652,16 @@ models:
     fields:
       - name: mobile
         type: string
+        label: Mobile Number
+      - name: content
+        type: string
+        label: content
+      - name: social
+        type: list
+        label: Social
+        items:
+          type: string
+pe: string
         label: Mobile Number
       - name: content
         type: string
