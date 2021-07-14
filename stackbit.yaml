@@ -118,9 +118,6 @@ models:
           type: model
           models:
             - action
-      - name: col_text
-        type: string
-        label: Col Text
   doc_sections:
     type: data
     file: doc_sections.yml
