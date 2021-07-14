@@ -82,7 +82,18 @@
                 "new_window": true
             }
         ],
-        "content": "Copyright &copy; 2021. All Rights reserved."
+        "content": "Copyright &copy; 2021. All Rights reserved.",
+        "links": [
+            {
+                "label": "lorem-ipsum",
+                "url": "#",
+                "style": "link",
+                "icon_class": "dev",
+                "new_window": false,
+                "no_follow": false,
+                "type": "action"
+            }
+        ]
     },
     "title": "Stackbit Libris Theme",
     "domain": "https://test-e65ed.netlify.app"
