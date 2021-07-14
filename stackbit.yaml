@@ -127,6 +127,9 @@ models:
         label: Second Col
       - name: col_text
         type: string
+        label: Col Text
+      - name: ''
+        type: string
   doc_sections:
     type: data
     file: doc_sections.yml
