@@ -667,3 +667,4 @@ models:
           type: string
       - name: action
         type: url
+        label: Action
