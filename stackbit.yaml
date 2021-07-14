@@ -680,3 +680,4 @@ models:
     fields:
       - name: mobile
         type: string
+        label: Mobile Number
