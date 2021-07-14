@@ -123,6 +123,7 @@ models:
             - action
       - name: second_col
         type: boolean
+        default: false
   doc_sections:
     type: data
     file: doc_sections.yml
