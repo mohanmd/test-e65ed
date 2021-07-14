@@ -657,12 +657,12 @@ models:
       - name: mobile_number
         type: string
         label: Mobile Number
-      - name: action
-        type: url
-        label: Action
       - name: content
         type: string
         label: content
+      - name: action
+        type: url
+        label: Action
       - name: social
         type: list
         label: Social
