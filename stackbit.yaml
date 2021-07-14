@@ -124,6 +124,9 @@ models:
       - name: second_col
         type: boolean
         default: false
+        label: Second Col
+      - name: ''
+        type: string
   doc_sections:
     type: data
     file: doc_sections.yml
