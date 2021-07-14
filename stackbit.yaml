@@ -681,5 +681,5 @@ models:
       - name: mobile
         type: string
         label: Mobile Number
-      - name: ''
+      - name: content
         type: string
