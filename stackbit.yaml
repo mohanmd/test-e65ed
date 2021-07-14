@@ -659,3 +659,7 @@ models:
             - type: boolean
               name: relativeUrl
               label: Relative Url
+  footertop:
+    type: page
+    label: footertop
+    layout: footertop
