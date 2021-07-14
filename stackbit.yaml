@@ -670,4 +670,5 @@ models:
       - name: grid_item
         type: list
         items:
-          type: string
+          type: model
+          models: []
