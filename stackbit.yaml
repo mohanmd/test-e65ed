@@ -118,10 +118,6 @@ models:
           type: model
           models:
             - action
-      - name: second_col
-        type: boolean
-        default: false
-        label: Second Col
       - name: col_text
         type: string
         label: Col Text
