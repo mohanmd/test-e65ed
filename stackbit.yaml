@@ -686,5 +686,3 @@ models:
         label: Social
         items:
           type: string
-      - name: ''
-        type: url
