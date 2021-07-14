@@ -55,7 +55,7 @@ models:
         label: Footer Configuration
         models:
           - footer
-      - name: ''
+      - name: footertop
         type: model
         models: []
   header:
