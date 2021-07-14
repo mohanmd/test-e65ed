@@ -106,7 +106,7 @@ models:
         label: Footer Content
         description: The copyright text displayed in the footer
       - name: develop_info
-        type: number
+        type: string
         label: Mobile Number
   doc_sections:
     type: data
