@@ -94,7 +94,7 @@
                 "type": "action"
             }
         ],
-        "second_col": false
+        "second_col": true
     },
     "title": "Stackbit Libris Theme",
     "domain": "https://test-e65ed.netlify.app"
