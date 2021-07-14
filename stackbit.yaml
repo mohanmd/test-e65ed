@@ -109,7 +109,7 @@ models:
         type: string
         label: Develop Information
       - name: has_develop_info
-        type: string
+        type: number
   doc_sections:
     type: data
     file: doc_sections.yml
