@@ -668,4 +668,6 @@ models:
         type: string
         label: Left Content
       - name: grid_item
-        type: string
+        type: list
+        items:
+          type: string
