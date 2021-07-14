@@ -101,6 +101,7 @@
     "domain": "https://test-e65ed.netlify.app",
     "footertop": {
         "type": "footertop",
-        "mobile": "9710823803"
+        "mobile": "9710823803",
+        "content": "fdfdd"
     }
 }
