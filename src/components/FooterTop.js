@@ -4,7 +4,7 @@ import _ from 'lodash';
 import {htmlToReact} from '../utils';
 import ActionLink from './ActionLink';
 
-export default class Footer extends React.Component {
+export default class FooterTop extends React.Component {
     render() {
         return (
             <footer id="colophon" className="site-footer outer">
