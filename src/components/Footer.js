@@ -5,8 +5,9 @@ import {htmlToReact} from '../utils';
 import ActionLink from './ActionLink';
 
 export default class Footer extends React.Component {
-     console.log(this.props)
+     
     render() {
+        console.log(this.props)
         return (
            
             <footer id="colophon" className="site-footer outer">
