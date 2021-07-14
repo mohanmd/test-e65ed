@@ -120,6 +120,7 @@ models:
             - action
       - name: mobile_number
         type: number
+        label: Mobile Number
   doc_sections:
     type: data
     file: doc_sections.yml
