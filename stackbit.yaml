@@ -663,3 +663,6 @@ models:
     type: page
     label: footertop
     layout: footertop
+    fields:
+      - name: ''
+        type: string
