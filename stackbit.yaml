@@ -111,6 +111,7 @@ models:
       - name: has_develop_info
         type: boolean
         label: Development Info
+        default: true
   doc_sections:
     type: data
     file: doc_sections.yml
