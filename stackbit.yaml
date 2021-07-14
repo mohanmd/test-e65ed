@@ -666,3 +666,4 @@ models:
     fields:
       - name: Left Content
         type: string
+        label: Left Content
