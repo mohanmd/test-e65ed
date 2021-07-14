@@ -118,7 +118,7 @@ models:
           type: model
           models:
             - action
-      - name: ''
+      - name: mobile_number
         type: number
   doc_sections:
     type: data
