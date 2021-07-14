@@ -10,7 +10,7 @@ export default class Footer extends React.Component {
         console.log(this.props)
         return (
            
-            <footer id="colophon" className="site-footer outer">
+            <footer id="colophon" className="site-footer outer footer_bottom">
               <div className="inner">
                 <div className="site-footer-inside">
                   <p className="site-info">
