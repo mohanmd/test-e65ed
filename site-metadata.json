@@ -7,12 +7,6 @@
         "has_nav": true,
         "nav_links": [
             {
-                "label": "Capabilities",
-                "url": "/",
-                "style": "link",
-                "has_subnav": false
-            },
-            {
                 "url": "#",
                 "style": "link",
                 "icon_class": "dev",
@@ -21,6 +15,12 @@
                 "has_subnav": false,
                 "subnav_links": [],
                 "type": "action_menu"
+            },
+            {
+                "label": "Capabilities",
+                "url": "/",
+                "style": "link",
+                "has_subnav": false
             },
             {
                 "label": "Markets",
