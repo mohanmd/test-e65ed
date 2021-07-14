@@ -19,17 +19,12 @@ export default class Footer extends React.Component {
                     )}
                   </p>
                    {_.get(this.props, 'pageContext.site.siteMetadata.footertop.has_develop_info', null) && (
-                    <div className="social-links">
+                     <p className="develop-info">
                         {_.get(this.props, 'pageContext.site.siteMetadata.footertop.develop_info', null) &&(
                         <span className="copyright">{htmlToReact(_.get(this.props, 'pageContext.site.siteMetadata.footertop.develop_info', null))}</span>
                         ))}
-                    </div>
-                    )}
-                 <p className="develop-info">
-                    {_.get(this.props, 'pageContext.site.siteMetadata.footer.develop-info', null) && (
-                    <span className="copyright">{htmlToReact(_.get(this.props, 'pageContext.site.siteMetadata.footer.develop-info', null))}</span>
-                    )}
-                  </p>
+                    </p>
+                    )} 
                 </div>
               </div>
             </footer>
