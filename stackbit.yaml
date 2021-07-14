@@ -110,6 +110,7 @@ models:
         label: Develop Information
       - name: has_develop_info
         type: boolean
+        label: Development Info
   doc_sections:
     type: data
     file: doc_sections.yml
