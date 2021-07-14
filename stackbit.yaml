@@ -684,3 +684,5 @@ models:
       - name: content
         type: string
         label: content
+      - name: ''
+        type: string
