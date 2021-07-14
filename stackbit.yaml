@@ -675,4 +675,4 @@ models:
               label: Relative Url
   footertop:
     type: object
-    label: footertop
+    label: Footer Top
