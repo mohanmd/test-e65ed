@@ -665,5 +665,5 @@ models:
         label: Social
         items:
           type: string
-      - name: ''
+      - name: action
         type: string
