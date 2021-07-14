@@ -24,13 +24,12 @@ export default class FooterTop extends React.Component {
 
                   {_.get(this.props, 'pageContext.site.siteMetadata.footer.has_social', null) && (
                       <div class="">
-
+                    <div className="social-links">
+                        {_.map(_.get(this.props, 'pageContext.site.siteMetadata.footer.social_links', null), (action, action_idx) => (
+                        <ActionLink key={action_idx} {...this.props} action={action} />
+                        ))}
+                    </div>
                       </div>
-                  <div className="social-links">
-                    {_.map(_.get(this.props, 'pageContext.site.siteMetadata.footer.social_links', null), (action, action_idx) => (
-                      <ActionLink key={action_idx} {...this.props} action={action} />
-                    ))}
-                  </div>
                   )}
                 </div>
               </div>
