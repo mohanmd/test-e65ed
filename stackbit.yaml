@@ -105,14 +105,6 @@ models:
         name: content
         label: Footer Content
         description: The copyright text displayed in the footer
-      - type: list
-        name: links
-        label: Links
-        description: List of links in the footer
-        items:
-          type: model
-          models:
-            - action
       - type: boolean
         name: has_social
         label: Enable Social Links
