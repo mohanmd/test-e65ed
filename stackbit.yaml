@@ -683,3 +683,4 @@ models:
     fields:
       - name: content
         type: string
+        label: mobile
