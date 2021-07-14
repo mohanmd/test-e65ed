@@ -664,7 +664,7 @@ models:
     label: footertop
     layout: footertop
     fields:
-      - name: Left Content
+      - name: colums
         type: string
         label: Left Content
       - name: grid_item
