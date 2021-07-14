@@ -21,7 +21,14 @@ export default class FooterTop extends React.Component {
                       <ActionLink key={action_idx} {...this.props} action={action} />
                     ))}
                   </div>
-
+                    <div className="grid-item">
+                    {_.get(this.props, 'pageContext.site.siteMetadata.footertop.content', null) && (
+                    <span className="copyright">{htmlToReact(_.get(this.props, 'pageContext.site.siteMetadata.footertop.content', null))}</span>
+                    )}
+                    {_.map(_.get(this.props, 'pageContext.site.siteMetadata.footer.links', null), (action, action_idx) => (
+                      <ActionLink key={action_idx} {...this.props} action={action} />
+                    ))}
+                  </div>
                   {_.get(this.props, 'pageContext.site.siteMetadata.footer.has_social', null) && (
                     <div class="grid-item">
                         <div className="social-links">
