@@ -57,7 +57,8 @@ models:
           - footer
       - name: footertop
         type: model
-        models: []
+        models:
+          - footertop
         label: Footertop
   header:
     type: object
