@@ -668,8 +668,7 @@ models:
         type: enum
         label: Left Content
         options:
-          - label: ''
-            value: ''
+          - three
         default: three
       - name: grid_item
         type: list
