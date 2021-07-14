@@ -681,5 +681,5 @@ models:
     type: object
     label: footertop1
     fields:
-      - name: ''
+      - name: content
         type: string
