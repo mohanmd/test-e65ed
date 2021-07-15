@@ -28,7 +28,7 @@ export default class FooterTop extends React.Component {
                   </div>
 
                   {_.get(this.props, 'pageContext.site.siteMetadata.footer.has_social', null) && (
-                    <div class="grid-item flx-end">
+                    <div className="grid-item flx-end">
                         <div className="social-links">
                             {_.map(_.get(this.props, 'pageContext.site.siteMetadata.footer.social_links', null), (action, action_idx) => (
                             <ActionLink key={action_idx} {...this.props} action={action} />

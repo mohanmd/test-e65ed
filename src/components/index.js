@@ -29,7 +29,8 @@ export {
     SectionHero,
     Submenu,
     Layout,
-    FooterTop
+    FooterTop,
+    
 };
 
 export default {

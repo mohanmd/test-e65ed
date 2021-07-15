@@ -7,6 +7,9 @@ import '../sass/main.scss';
 import Header from './Header';
 import Footer from './Footer';
 import FooterTop from './FooterTop';
+import CareerHome from './CareerHome';
+import AboutBusiness from './AboutBusiness';
+import image from '../data/image';
 
 export default class Body extends React.Component {
     render() {
@@ -48,6 +51,8 @@ export default class Body extends React.Component {
                   <main id="content" className="site-content">
                     {this.props.children}
                   </main>
+                  <AboutBusiness {...this.props}/>
+                  <CareerHome {...this.props}/>
                   <FooterTop {...this.props} />
                   <Footer {...this.props} />
                 </div>
