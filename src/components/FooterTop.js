@@ -20,7 +20,7 @@ export default class FooterTop extends React.Component {
                     
                   </div>
 
-                <div className="grid-item">
+                <div className="grid-item text-center">
                     {_.get(this.props, 'pageContext.site.siteMetadata.footertop.content', null) && (
                     <span className="copyright">{htmlToReact(_.get(this.props, 'pageContext.site.siteMetadata.footertop.content', null))}</span>
                     )}
