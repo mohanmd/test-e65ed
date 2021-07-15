@@ -4,7 +4,8 @@
 }
 
 .site-footer {
-  background-color: #fff;
+    background: #6f6f6f;
+    color: #fff;
   padding-bottom: 1.5em;
   padding-top: 1.5em;
 }
@@ -12,11 +13,7 @@
     border: 1px solid #ccc;
     text-decoration: blink;
     padding: 11px;
-}
-{
-    background: #6f6f6f;
-    color: #fff;
-}
+} 
 #colophon {
   a:not(.button) {
     color: inherit;
