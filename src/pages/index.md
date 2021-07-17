@@ -94,7 +94,7 @@ sections:
           - label: Learn More
             url: /showcase
             style: link
-  - title: lorem-ipsum
+  - title: Capabilities
     section_id: lorem-ipsum
     subtitle: lorem-ipsum
     col_number: two
