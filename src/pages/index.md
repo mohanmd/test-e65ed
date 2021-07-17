@@ -122,7 +122,7 @@ sections:
         type: grid_item
         image: images/Alliance and partnership.jpg
     type: about_grid
-  - title: lorem-ipsum
+  - title: Markets
     section_id: lorem-ipsum
     subtitle: lorem-ipsum
     col_number: four
