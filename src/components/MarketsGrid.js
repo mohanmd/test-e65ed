@@ -7,7 +7,7 @@ import CtaButtons from './CtaButtons';
 export default class MarketsGrid extends React.Component {
     render() {
         let section = _.get(this.props, 'section', null);
-        console.log(get(section, 'col_number', null))
+        console.log(section)
         return (
             <section id={_.get(section, 'section_id', null)} className={classNames('block', 'block-grid', 'outer', {'has-header': _.get(section, 'title', null) || _.get(section, 'subtitle', null)})}>
               <div className="inner">
@@ -22,8 +22,8 @@ export default class MarketsGrid extends React.Component {
                 </div>
                 )}
                 {_.get(section, 'grid_items', null) && (
-                <div className="block-content sdf">
-                  <div className={classNames('grid', {'grid-col-4': _.get(section, 'col_number', null) === 'three', 'grid-col-3': _.get(section, 'col_number', null) === 'three','grid-col-4': _.get(section, 'col_number', null) === 'four'})}>
+                <div className="block-content">
+                  <div className={classNames('grid', {'grid-col-2': _.get(section, 'col_number', null) === 'two', 'grid-col-3': _.get(section, 'col_number', null) === 'three'},'grid-col-4': _.get(section, 'col_number', null) === 'four'}))}>
                     {_.map(_.get(section, 'grid_items', null), (item, item_idx) => (
                     <div key={item_idx} className="grid-item">
                       <div className="grid-item-inside">
