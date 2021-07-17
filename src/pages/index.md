@@ -134,6 +134,7 @@ sections:
           in space.
         actions: []
         type: grid_item
+        image: images/Intelligence community.jpg
       - title: lorem-ipsum
         title_url: lorem-ipsum
         image_alt: lorem-ipsum
