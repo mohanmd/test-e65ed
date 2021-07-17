@@ -94,6 +94,12 @@ sections:
           - label: Learn More
             url: /showcase
             style: link
+  - title: lorem-ipsum
+    section_id: lorem-ipsum
+    subtitle: lorem-ipsum
+    col_number: two
+    grid_items: []
+    type: capability_grid
   - title: Markets
     section_id: integra_markets
     col_number: four
@@ -158,12 +164,6 @@ sections:
         type: grid_item
         image: images/Alliance and partnership.jpg
     type: about_grid
-  - title: lorem-ipsum
-    section_id: lorem-ipsum
-    subtitle: lorem-ipsum
-    col_number: two
-    grid_items: []
-    type: capability_grid
 seo:
   title: Stackbit Libris Theme
   description: The preview of the Libris theme
