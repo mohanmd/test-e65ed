@@ -34,7 +34,8 @@ export {
     Layout,
     FooterTop,
     AboutGrid,
-    MarketsGrid
+    MarketsGrid,
+    CapabilityGrid
     
 };
 
