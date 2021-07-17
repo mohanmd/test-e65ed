@@ -106,7 +106,7 @@ sections:
     section_id: lorem-ipsum
     col_number: three
     grid_items:
-      - title: lorem-ipsum
+      - title: Certifications and Apraisels
         title_url: lorem-ipsum
         image_alt: lorem-ipsum
         actions: []
