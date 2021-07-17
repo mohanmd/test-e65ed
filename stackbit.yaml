@@ -715,3 +715,4 @@ models:
         label: Section Id
       - name: subtitle
         type: string
+        label: Subtitle
