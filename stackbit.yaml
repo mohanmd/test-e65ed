@@ -701,3 +701,9 @@ models:
           models:
             - grid_item
         label: Grid list
+  markets_grid:
+    type: object
+    label: markets_grid
+    fields:
+      - name: title
+        type: string
