@@ -34,12 +34,6 @@ export default class CapabilityGrid extends React.Component {
                             <img src={withPrefix(_.get(item, 'image', null))} alt={_.get(item, 'image_alt', null)} />
                             </div>
                             )}
-                          
-                            {_.get(item, 'content', null) && (
-                            <div className="grid-item-content">
-                            {markdownify(_.get(item, 'content', null))}
-                            </div>
-                            )}
 
                               {_.get(item, 'title', null) && (
                             <h3 className="grid-item-title line-left">
@@ -50,6 +44,14 @@ export default class CapabilityGrid extends React.Component {
                             }
                             </h3>
                             )}
+                          
+                            {_.get(item, 'content', null) && (
+                            <div className="grid-item-content">
+                            {markdownify(_.get(item, 'content', null))}
+                            </div>
+                            )}
+
+                            
                             {/* {_.get(item, 'actions', null) && (
                             <div className="grid-item-buttons">
                             <CtaButtons {...this.props} actions={_.get(item, 'actions', null)} />
