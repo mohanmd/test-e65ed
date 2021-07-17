@@ -102,6 +102,12 @@ sections:
       - label: Get Started
         url: /docs/getting-started/installation
         style: primary
+  - title: lorem-ipsum
+    section_id: lorem-ipsum
+    subtitle: lorem-ipsum
+    col_number: three
+    grid_items: []
+    type: about_grid
 seo:
   title: Stackbit Libris Theme
   description: The preview of the Libris theme
