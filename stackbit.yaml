@@ -739,5 +739,5 @@ models:
     type: object
     label: capability_grid
     fields:
-      - name: ''
+      - name: title
         type: string
