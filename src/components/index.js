@@ -13,6 +13,7 @@ import SectionGrid from './SectionGrid';
 import SectionHero from './SectionHero';
 import Submenu from './Submenu';
 import Layout from './Layout';
+import SectionGrid from './SectionGrid';
 
 export {
     ActionLink,
