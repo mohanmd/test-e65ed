@@ -56,10 +56,10 @@
     .grey-sec:after{
         content: '';
         background: gray;
-        height: 258px;
+        height: 284px;
         width: 100%;
         position: absolute;
-        bottom: 0;
+        bottom: -24px;
         z-index: 1;
     }
     .block-content{
