@@ -4,7 +4,7 @@ import _ from 'lodash';
 import {classNames, htmlToReact, withPrefix, Link, markdownify} from '../utils';
 import CtaButtons from './CtaButtons';
 
-export default class MarketsGrid extends React.Component {
+export default class AboutGrid extends React.Component {
     render() {
         let section = _.get(this.props, 'section', null);
         console.log(section)
@@ -22,9 +22,8 @@ export default class MarketsGrid extends React.Component {
                 </div>
                 )}
                 {_.get(section, 'grid_items', null) && (
-                    
                 <div className="block-content">
-                  <div className={classNames('grid', {'grid-col-2': _.get(section, 'col_number', null) === 'two', 'grid-col-3': _.get(section, 'col_number', null) === 'three','grid-col-4': _.get(section, 'col_number', null) === 'four'})}>
+                  <div className={classNames('grid', {'grid-col-2': _.get(section, 'col_number', null) === 'two', 'grid-col-3': _.get(section, 'col_number', null) === 'three'})}>
                     {_.map(_.get(section, 'grid_items', null), (item, item_idx) => (
                     <div key={item_idx} className="grid-item">
                       <div className="grid-item-inside">
