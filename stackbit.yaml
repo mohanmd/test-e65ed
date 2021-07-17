@@ -754,6 +754,8 @@ models:
       - name: col_number
         type: enum
         options:
+          - label: two
+            value: two
           - label: ''
             value: ''
         label: Column
