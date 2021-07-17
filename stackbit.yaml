@@ -749,3 +749,4 @@ models:
         description: A unique identifier of the section, must not contain whitespace
       - name: subtitle
         type: string
+        label: Subtitle
