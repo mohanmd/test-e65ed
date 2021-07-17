@@ -4,7 +4,7 @@ import _ from 'lodash';
 import {classNames, htmlToReact, withPrefix, Link, markdownify} from '../utils';
 import CtaButtons from './CtaButtons';
 
-export default class AboutGrid extends React.Component {
+export default class MarketsGrid extends React.Component {
     render() {
         let section = _.get(this.props, 'section', null);
         console.log(section)
