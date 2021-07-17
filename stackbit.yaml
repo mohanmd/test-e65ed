@@ -713,5 +713,5 @@ models:
         type: string
         description: A unique identifier of the section, must not contain whitespace
         label: Section Id
-      - name: ''
+      - name: subtitle
         type: string
