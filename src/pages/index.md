@@ -104,7 +104,6 @@ sections:
         style: primary
   - title: About Business Integra
     section_id: lorem-ipsum
-    subtitle: lorem-ipsum
     col_number: three
     grid_items: []
     type: about_grid
