@@ -105,7 +105,13 @@ sections:
   - title: Markets
     section_id: integra_markets
     col_number: four
-    grid_items: []
+    grid_items:
+      - title: lorem-ipsum
+        section_id: lorem-ipsum
+        subtitle: lorem-ipsum
+        col_number: four
+        grid_items: []
+        type: markets_grid
     type: markets_grid
   - title: About Business Integra
     section_id: about_integra
