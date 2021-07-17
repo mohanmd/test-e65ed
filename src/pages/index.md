@@ -102,6 +102,12 @@ sections:
       - label: Get Started
         url: /docs/getting-started/installation
         style: primary
+  - title: lorem-ipsum
+    section_id: lorem-ipsum
+    subtitle: lorem-ipsum
+    col_number: four
+    grid_items: []
+    type: markets_grid
   - title: About Business Integra
     section_id: about_integra
     col_number: three
@@ -122,12 +128,6 @@ sections:
         type: grid_item
         image: images/Alliance and partnership.jpg
     type: about_grid
-  - title: lorem-ipsum
-    section_id: lorem-ipsum
-    subtitle: lorem-ipsum
-    col_number: four
-    grid_items: []
-    type: markets_grid
 seo:
   title: Stackbit Libris Theme
   description: The preview of the Libris theme
