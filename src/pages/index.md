@@ -103,7 +103,7 @@ sections:
         url: /docs/getting-started/installation
         style: primary
   - title: Markets
-    section_id: lorem-ipsum
+    section_id: integra_markets
     subtitle: lorem-ipsum
     col_number: four
     grid_items: []
