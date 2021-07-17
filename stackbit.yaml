@@ -667,3 +667,13 @@ models:
           type: model
           models:
             - grid_item
+  about_grid:
+    type: object
+    label: about_grid
+    fields:
+      - name: title
+        type: string
+        label: Title
+        description: The title of the section.
+      - name: section_id
+        type: string
