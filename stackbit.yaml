@@ -760,3 +760,5 @@ models:
         label: Column
         default: two
         required: true
+      - name: ''
+        type: string
