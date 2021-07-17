@@ -683,5 +683,5 @@ models:
         type: string
         label: Subtitle
         description: The subtitle of the section
-      - name: ''
+      - name: col_number
         type: string
