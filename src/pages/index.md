@@ -103,7 +103,7 @@ sections:
         url: /docs/getting-started/installation
         style: primary
   - title: About Business Integra
-    section_id: lorem-ipsum
+    section_id: about_integra
     col_number: three
     grid_items:
       - title: Certifications and Apraisels
