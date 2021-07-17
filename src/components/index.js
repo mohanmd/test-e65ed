@@ -30,7 +30,8 @@ export {
     SectionHero,
     Submenu,
     Layout,
-    FooterTop
+    FooterTop,
+    AboutGrid
 };
 
 export default {
