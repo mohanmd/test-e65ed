@@ -53,7 +53,15 @@
     padding-left:0;
     padding-right:0;
     position: relative;
-    .grey-sec{}
+    .grey-sec{
+        content: '';
+        background: gray;
+        height: 258px;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        z-index: 1;
+    }
 }
 
 
