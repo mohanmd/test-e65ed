@@ -97,7 +97,23 @@ sections:
   - title: Capabilities
     section_id: capability_grid
     col_number: two
-    grid_items: []
+    grid_items:
+      - title: lorem-ipsum
+        title_url: lorem-ipsum
+        image_alt: lorem-ipsum
+        content: >-
+          ## Lorem ipsum
+
+
+          Lorem ipsum dolor sit amet, **consectetur adipiscing elit**, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+
+          - Lorem ipsum
+
+          - dolor sit amet
+        actions: []
+        type: grid_item
     type: capability_grid
   - title: Markets
     section_id: integra_markets
