@@ -115,7 +115,7 @@ sections:
         actions: []
         type: grid_item
         image: images/Federal.jpg
-      - title: lorem-ipsum
+      - title: Department of Defence
         title_url: lorem-ipsum
         image_alt: lorem-ipsum
         content: |
