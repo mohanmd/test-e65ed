@@ -14,7 +14,8 @@ import SectionHero from './SectionHero';
 import Submenu from './Submenu';
 import Layout from './Layout';
 import AboutGrid from './AboutGrid';
-MarketsGrid
+import MarketsGrid from './AboutGrid';
+
 export {
     ActionLink,
     CtaButtons,
