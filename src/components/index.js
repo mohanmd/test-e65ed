@@ -15,6 +15,7 @@ import Submenu from './Submenu';
 import Layout from './Layout';
 import AboutGrid from './AboutGrid';
 import MarketsGrid from './MarketsGrid';
+import MarketsGrid from './MarketsGrid';
 CapabilityGrid
 export {
     ActionLink,
