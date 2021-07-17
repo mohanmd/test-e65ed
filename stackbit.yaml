@@ -731,3 +731,4 @@ models:
         type: list
         items:
           type: string
+        label: Grid Items
