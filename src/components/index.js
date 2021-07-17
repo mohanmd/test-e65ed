@@ -53,5 +53,6 @@ export default {
     Submenu,
     Layout,
     FooterTop,
-    AboutGrid
+    AboutGrid,
+    MarketsGrid
 };
