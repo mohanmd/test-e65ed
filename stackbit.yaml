@@ -671,5 +671,5 @@ models:
     type: object
     label: about_grid
     fields:
-      - name: ''
+      - name: title
         type: string
