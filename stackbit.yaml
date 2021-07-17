@@ -738,3 +738,6 @@ models:
   capability_grid:
     type: object
     label: capability_grid
+    fields:
+      - name: ''
+        type: string
