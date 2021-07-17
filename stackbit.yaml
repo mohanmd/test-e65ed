@@ -728,4 +728,6 @@ models:
         default: four
         required: true
       - name: grid_items
-        type: string
+        type: list
+        items:
+          type: string
