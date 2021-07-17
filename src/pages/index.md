@@ -104,7 +104,7 @@ sections:
         style: primary
   - title: Markets
     section_id: integra_markets
-    col_number: four
+    col_number: three
     grid_items:
       - title: lorem-ipsum
         title_url: lorem-ipsum
