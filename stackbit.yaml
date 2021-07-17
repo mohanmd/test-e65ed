@@ -701,3 +701,34 @@ models:
           models:
             - grid_item
         label: Grid list
+  markets_grid:
+    type: object
+    label: markets_grid
+    fields:
+      - name: title
+        type: string
+        label: Title
+        description: The title of the section.
+      - name: section_id
+        type: string
+        description: A unique identifier of the section, must not contain whitespace
+        label: Section Id
+      - name: subtitle
+        type: string
+        label: Subtitle
+        description: The subtitle of the section
+      - name: col_number
+        type: enum
+        options:
+          - two
+          - three
+          - four
+        label: Columns
+        description: The number of grid items in a row
+        default: four
+        required: true
+      - name: grid_items
+        type: list
+        items:
+          type: string
+        label: Grid Items
