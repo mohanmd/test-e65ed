@@ -125,7 +125,7 @@ sections:
         actions: []
         type: grid_item
         image: images/Department of defence.jpg
-      - title: lorem-ipsum
+      - title: Intelligence Community
         title_url: lorem-ipsum
         image_alt: lorem-ipsum
         content: |
