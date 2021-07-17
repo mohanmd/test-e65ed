@@ -25,6 +25,9 @@
         border-radius:0;
     }
     .grid-item-title{
+        &:after{
+            
+        }
         background: #33b0bb;
         margin: 0;
         padding-top: 20px;
@@ -34,7 +37,7 @@
         text-align: center;
     }
     .grid-item-inside{
-        
+
         flex-grow:inherit;
         padding-bottom:0;
     }
