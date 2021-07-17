@@ -102,6 +102,11 @@ sections:
       - label: Get Started
         url: /docs/getting-started/installation
         style: primary
+  - title: Markets
+    section_id: integra_markets
+    col_number: four
+    grid_items: []
+    type: markets_grid
   - title: About Business Integra
     section_id: about_integra
     col_number: three
@@ -122,11 +127,6 @@ sections:
         type: grid_item
         image: images/Alliance and partnership.jpg
     type: about_grid
-  - title: Markets
-    section_id: integra_markets
-    col_number: four
-    grid_items: []
-    type: markets_grid
 seo:
   title: Stackbit Libris Theme
   description: The preview of the Libris theme
