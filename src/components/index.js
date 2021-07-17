@@ -32,7 +32,8 @@ export {
     Submenu,
     Layout,
     FooterTop,
-    AboutGrid
+    AboutGrid,
+    
 };
 
 export default {
