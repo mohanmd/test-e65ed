@@ -144,6 +144,7 @@ sections:
           in space
         actions: []
         type: grid_item
+        image: images/NATO.jpg
     type: markets_grid
   - title: About Business Integra
     section_id: about_integra
