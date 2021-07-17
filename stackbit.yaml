@@ -678,3 +678,4 @@ models:
       - name: section_id
         type: string
         label: Section Id
+        description: A unique identifier of the section, must not contain whitespace
