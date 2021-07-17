@@ -731,5 +731,6 @@ models:
         type: list
         items:
           type: model
-          models: []
+          models:
+            - markets_grid
         label: Grid Items
