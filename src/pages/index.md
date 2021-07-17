@@ -123,7 +123,7 @@ sections:
         image: images/Alliance and partnership.jpg
     type: about_grid
   - title: Markets
-    section_id: lorem-ipsum
+    section_id: integra_markets
     col_number: four
     grid_items: []
     type: markets_grid
