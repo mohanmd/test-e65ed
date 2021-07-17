@@ -704,3 +704,6 @@ models:
   markets_grid:
     type: object
     label: markets_grid
+    fields:
+      - name: ''
+        type: string
