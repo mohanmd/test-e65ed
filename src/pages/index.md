@@ -118,7 +118,7 @@ sections:
         actions: []
         type: grid_item
         image: images/Leadership.jpg
-      - title: 'Alliences '
+      - title: Alliences & Partnerships
         title_url: lorem-ipsum
         image_alt: lorem-ipsum
         actions: []
