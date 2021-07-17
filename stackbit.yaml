@@ -735,3 +735,6 @@ models:
           models:
             - grid_item
         label: Grid items
+  capability_grid:
+    type: object
+    label: capability_grid
