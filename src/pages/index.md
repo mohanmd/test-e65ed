@@ -95,7 +95,7 @@ sections:
             url: /showcase
             style: link
   - title: Capabilities
-    section_id: lorem-ipsucapabilitym
+    section_id: capability_grid
     subtitle: lorem-ipsum
     col_number: two
     grid_items: []
