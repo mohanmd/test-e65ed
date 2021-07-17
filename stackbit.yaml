@@ -751,3 +751,5 @@ models:
         type: string
         label: Subtitle
         description: The subtitle of the section
+      - name: ''
+        type: string
