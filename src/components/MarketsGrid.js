@@ -11,7 +11,8 @@ export default class MarketsGrid extends React.Component {
         // alert('sdfsdf')
         return (
             <section id={_.get(section, 'section_id', null)} className={classNames('block', 'block-grid', 'outer', {'has-header': _.get(section, 'title', null) || _.get(section, 'subtitle', null)})}>
-              <div className="inner">
+                <div class="grey-sec">
+                    <div className="inner">
                 {(_.get(section, 'title', null) || _.get(section, 'subtitle', null)) && (
                 <div className="block-header inner-sm">
                   {_.get(section, 'title', null) && (
@@ -59,6 +60,7 @@ export default class MarketsGrid extends React.Component {
                 </div>
                 )}
               </div>
+                </div>
             </section>
         );
     }
