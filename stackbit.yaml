@@ -689,3 +689,4 @@ models:
           - label: ''
             value: ''
         label: Columns
+        description: The number of grid items in a row
