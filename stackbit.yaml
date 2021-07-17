@@ -743,5 +743,6 @@ models:
         type: string
         label: Title
         description: The title of the section.
-      - name: section_id
+      - name: ''
         type: string
+        label: ''
