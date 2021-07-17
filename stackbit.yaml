@@ -667,3 +667,33 @@ models:
           type: model
           models:
             - grid_item
+  about_grid:
+    type: object
+    label: about_grid
+    fields:
+      - name: title
+        type: string
+        label: Title
+        description: The title of the section.
+      - name: section_id
+        type: string
+        label: Section Id
+        description: A unique identifier of the section, must not contain whitespace
+      - name: subtitle
+        type: string
+        label: Subtitle
+        description: The subtitle of the section
+      - name: col_number
+        type: enum
+        options:
+          - two
+          - three
+          - four
+        label: Columns
+        description: The number of grid items in a row
+        default: three
+        required: true
+      - name: ''
+        type: list
+        items:
+          type: string
