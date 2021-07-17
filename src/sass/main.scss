@@ -47,3 +47,10 @@
         padding-bottom:0;
     }
 }
+
+
+// FOUR Columns
+.grid-col-4 .grid-item {
+    flex: 0 0 25%;
+    max-width: 25%;
+}
