@@ -705,5 +705,5 @@ models:
     type: object
     label: markets_grid
     fields:
-      - name: ''
+      - name: title
         type: string
