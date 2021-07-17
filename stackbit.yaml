@@ -191,6 +191,7 @@ models:
             - section_hero
             - about_grid
             - markets_grid
+            - capability_grid
       - type: model
         name: seo
         models:
