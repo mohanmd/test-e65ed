@@ -726,7 +726,7 @@ models:
           - four
         label: Columns
         description: The number of grid items in a row
-        default: four
+        default: three
         required: true
       - name: grid_items
         type: list
