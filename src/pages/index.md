@@ -117,7 +117,7 @@ sections:
         image_alt: lorem-ipsum
         actions: []
         type: grid_item
-        image: images/banner7.jpg
+        image: images/Leadership.jpg
       - title: lorem-ipsum
         title_url: lorem-ipsum
         image_alt: lorem-ipsum
