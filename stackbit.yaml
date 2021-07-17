@@ -734,4 +734,4 @@ models:
           type: model
           models:
             - grid_item
-        label: Grid Items
+        label: Grid items
