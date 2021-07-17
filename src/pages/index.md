@@ -106,7 +106,7 @@ sections:
     section_id: integra_markets
     col_number: four
     grid_items:
-      - title: lorem-ipsum
+      - title: Federal
         image_alt: lorem-ipsum
         content: |
           We've collected hundreds
