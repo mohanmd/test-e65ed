@@ -112,7 +112,7 @@ sections:
         actions: []
         type: grid_item
         image: images/banner7.jpg
-      - title: lorem-ipsum
+      - title: Leadership
         title_url: lorem-ipsum
         image_alt: lorem-ipsum
         actions: []
