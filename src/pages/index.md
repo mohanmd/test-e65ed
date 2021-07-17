@@ -105,7 +105,23 @@ sections:
   - title: About Business Integra
     section_id: lorem-ipsum
     col_number: three
-    grid_items: []
+    grid_items:
+      - title: lorem-ipsum
+        title_url: lorem-ipsum
+        image_alt: lorem-ipsum
+        content: >-
+          ## Lorem ipsum
+
+
+          Lorem ipsum dolor sit amet, **consectetur adipiscing elit**, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+
+          - Lorem ipsum
+
+          - dolor sit amet
+        actions: []
+        type: grid_item
     type: about_grid
 seo:
   title: Stackbit Libris Theme
