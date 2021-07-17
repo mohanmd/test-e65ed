@@ -26,7 +26,7 @@
     }
     .grid-item-title{
         &:after{
-            
+            content:unset;
         }
         background: #33b0bb;
         margin: 0;
