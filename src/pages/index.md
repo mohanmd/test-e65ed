@@ -124,7 +124,6 @@ sections:
     type: about_grid
   - title: Markets
     section_id: lorem-ipsum
-    subtitle: lorem-ipsm
     col_number: four
     grid_items: []
     type: markets_grid
