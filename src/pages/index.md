@@ -96,7 +96,6 @@ sections:
             style: link
   - title: Capabilities
     section_id: capability_grid
-    subtitle: lorem-ipsum
     col_number: two
     grid_items: []
     type: capability_grid
