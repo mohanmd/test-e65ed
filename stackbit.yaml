@@ -811,3 +811,6 @@ models:
       - name: section_is
         type: string
         label: Section Id
+        description: A unique identifier of the section, must not contain whitespace
+      - name: ''
+        type: string
