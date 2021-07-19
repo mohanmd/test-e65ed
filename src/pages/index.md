@@ -115,7 +115,7 @@ sections:
             type: action
         type: grid_item
         image: images/Mission support service.jpg
-      - title: lorem-ipsum
+      - title: INFORMATION TECHNOLOGY
         title_url: lorem-ipsum
         image_alt: lorem-ipsum
         content: >-
