@@ -1,17 +1,6 @@
 ---
 title: Home
 sections:
-  - section_id: hero
-    type: section_hero
-    title: Hero Section
-    image: images/5.jpg
-    content: >-
-      This section can contain a subtitle or tagline. The recommended length is
-      one to three sentences, but can be changed as you prefer.
-    actions:
-      - label: Get Started
-        url: /docs
-        style: primary
   - title: Capabilities
     section_id: capability_grid
     col_number: two
