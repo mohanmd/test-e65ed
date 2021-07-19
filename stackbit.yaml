@@ -827,5 +827,6 @@ models:
       - name: grid_items
         type: list
         items:
-          type: string
+          type: model
+          models: []
         label: Grid Items
