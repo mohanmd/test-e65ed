@@ -808,5 +808,5 @@ models:
         type: string
         label: Title
         description: Title
-      - name: ''
+      - name: section_is
         type: string
