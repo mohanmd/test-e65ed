@@ -147,6 +147,7 @@ sections:
       - image_alt: lorem-ipsum
         actions: []
         type: grid_item
+        image: images/superb-wallaby.png
     type: start_career
     class: main-banner-slider
 seo:
