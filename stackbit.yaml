@@ -792,3 +792,5 @@ models:
         description: The number of grid items in a row
         default: one
         required: true
+      - name: ''
+        type: string
