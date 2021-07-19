@@ -5,7 +5,7 @@ sections:
     col_number: one
     grid_items:
       - title: lorem-ipsum
-        title_url: lorem-ipsum
+        title_url: '#'
         image_alt: lorem-ipsum
         content: >-
           ## Lorem ipsum
