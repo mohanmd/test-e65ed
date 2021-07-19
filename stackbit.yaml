@@ -803,3 +803,6 @@ models:
   start_career:
     type: object
     label: start_career
+    fields:
+      - name: ''
+        type: string
