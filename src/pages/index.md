@@ -2,7 +2,6 @@
 title: Home
 sections:
   - section_id: main-banner-slider
-    subtitle: lorem-ipsum
     col_number: one
     grid_items: []
     type: banner_section
