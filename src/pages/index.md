@@ -1,8 +1,7 @@
 ---
 title: Home
 sections:
-  - title: lorem-ipsum
-    section_id: lorem-ipsum
+  - section_id: lorem-ipsum
     subtitle: lorem-ipsum
     col_number: one
     grid_items: []
