@@ -159,12 +159,6 @@
     }
 }
 
-.block.start-career .grid-col-2 .grid-item:first-child{
-    max-width:30%;
-}
-.block.start-career .grid-col-2 .grid-item:last-child{
-    max-width:30%;
-}
 
 
 
@@ -182,4 +176,11 @@
         flex: 0 0 25%;
         max-width: 25%;
     }
+    .block.start-career .grid-col-2 .grid-item:first-child{
+    max-width:30%;
+}
+.block.start-career .grid-col-2 .grid-item:last-child{
+    max-width:30%;
+}
+
 }
