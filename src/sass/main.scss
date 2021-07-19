@@ -61,13 +61,13 @@
     .grid-item-image img{
         width:100%;
     }
-    .grid-item-title {
-        &:after{
-            content:unset;
-        }
-        color: #1b67b2;
-        font-size: 18px;
-    }
+    // .grid-item-title {
+    //     &:after{
+    //         content:unset;
+    //     }
+    //     color: #1b67b2;
+    //     font-size: 18px;
+    // }
     .block-header{
         margin-left:0;
         margin-right:0;
