@@ -109,6 +109,9 @@
         transform: translate(-50%);
         padding-top: 14px;
     }
+    .grid-item-content, .grid-item-buttons{
+        margin-bottom:0;
+    }
 }
 
 
