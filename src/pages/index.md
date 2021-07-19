@@ -124,8 +124,7 @@ sections:
         type: grid_item
         image: images/Alliance and partnership.jpg
     type: about_grid
-  - title: 'Start a Careers, Hire a Star'
-    section_is: main-banner-slider
+  - section_is: main-banner-slider
     col_number: one
     grid_items: []
     type: start_career
