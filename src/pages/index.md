@@ -114,6 +114,7 @@ sections:
           - dolor sit amet
         actions: []
         type: grid_item
+        image: images/Mission support service.jpg
       - title: lorem-ipsum
         title_url: lorem-ipsum
         image_alt: lorem-ipsum
