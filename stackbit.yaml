@@ -812,5 +812,5 @@ models:
         type: string
         label: Section Id
         description: A unique identifier of the section, must not contain whitespace
-      - name: ''
+      - name: subtitle
         type: string
