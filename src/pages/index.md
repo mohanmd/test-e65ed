@@ -7,17 +7,9 @@ sections:
       - title: Business Integra
         title_url: '#'
         image_alt: lorem-ipsum
-        content: >-
-          ## Lorem ipsum
-
-
-          Lorem ipsum dolor sit amet, **consectetur adipiscing elit**, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-
-          - Lorem ipsum
-
-          - dolor sit amet
+        content: |
+          andLive Person Announce aNew
+          360° Partnership
         actions: []
         type: grid_item
     type: banner_section
