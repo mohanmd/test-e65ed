@@ -1,9 +1,19 @@
+// common
+.text-center {
+    text-align: center;
+}
+
 .site-footer {
-  background-color: #fff;
+    background: #6f6f6f;
+    color: #fff;
   padding-bottom: 1.5em;
   padding-top: 1.5em;
 }
-
+.connect_now{
+    border: 1px solid #ccc;
+    text-decoration: blink;
+    padding: 11px;
+} 
 #colophon {
   a:not(.button) {
     color: inherit;
@@ -34,6 +44,14 @@
     padding: 0.3em 1em;
   }
 }
+.develop_info{
+    text-align:right
+}
+
+.footer_bottom{
+    background: $color-secondary;
+    color: #fff
+}
 
 .site-info {
   margin: 0.25em 0 0;
@@ -63,6 +81,7 @@
     align-items: flex-start;
     display: -ms-flexbox;
     display: flex;
+    justify-content: space-between;
   }
 
   .site-info {
@@ -77,7 +96,7 @@
     -ms-flex-wrap: nowrap;
     flex-wrap: nowrap;
     -ms-flex-pack: start;
-    justify-content: flex-start;
+    justify-content: flex-end;
     margin-left: auto;
     margin-top: 0;
 

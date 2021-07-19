@@ -13,6 +13,11 @@ import SectionGrid from './SectionGrid';
 import SectionHero from './SectionHero';
 import Submenu from './Submenu';
 import Layout from './Layout';
+import AboutGrid from './AboutGrid';
+import MarketsGrid from './MarketsGrid';
+import CapabilityGrid from './CapabilityGrid';
+import BannerSection from './BannerSection';
+import StartCareer from './StartCareer';
 
 export {
     ActionLink,
@@ -29,7 +34,13 @@ export {
     SectionHero,
     Submenu,
     Layout,
-    FooterTop
+    FooterTop,
+    AboutGrid,
+    MarketsGrid,
+    CapabilityGrid,
+    BannerSection,
+    StartCareer
+    
 };
 
 export default {
@@ -47,5 +58,10 @@ export default {
     SectionHero,
     Submenu,
     Layout,
-    FooterTop
+    FooterTop,
+    AboutGrid,
+    MarketsGrid,
+    CapabilityGrid,
+    BannerSection,
+    StartCareer
 };

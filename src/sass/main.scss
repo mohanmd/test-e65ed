@@ -15,4 +15,196 @@
 @import "imports/sections";
 @import "imports/footer";
 @import "imports/palettes";
-//@import "imports/prism";
+@import "imports/slider";
+
+
+// About Section
+#about_integra{
+    .block-header{
+        margin-left:0;
+        margin-right:0;
+        text-align:left;
+    }
+    .grid-item-image img{
+        width:100%;
+        border-radius:0;
+    }
+    .grid-item-title{
+        &:after{
+            content:unset;
+        }
+        background: #33b0bb;
+        margin: 0;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: white;
+        font-size: 22px;
+        text-align: center;
+    }
+    .grid-item-inside{
+        flex-grow:inherit;
+        padding-bottom:0;
+    }
+}
+
+// MArketing Section
+#integra_markets{
+    padding-left:0;
+    padding-right:0;
+    position: relative;
+    
+    .block-content{
+        position: relative;
+        z-index: 2;
+    }
+    .grid-item-image img{
+        width:100%;
+    }
+    .grid-item-title {
+        &:after{
+            content:unset;
+        }
+        color: #1b67b2;
+        font-size: 18px;
+    }
+    .block-header{
+        margin-left:0;
+        margin-right:0;
+        text-align:left;
+    }
+    .grid-item-content{
+        margin-top:1em;
+    }
+}
+
+// Capability Grid
+#capability_grid {
+    .block-header{
+        margin-left:0;
+        margin-right:0;
+        text-align:left;
+    }
+    .grid-item-title{
+        &:after{
+            content:unset;
+        }
+        position: absolute;
+        top: 0;
+        left: 31px;
+        font-size: 31px;
+        color: white;
+        text-shadow: 3px 3px 5px #383737;
+    }
+    
+    color: #1b67b2;
+    font-size: 18px;
+    .grid-item-image img{
+        width:100%;
+    }
+    .grid-item-inside{
+        flex-grow:inherit;
+        padding-bottom:0;
+    }
+    .card-content-actions {
+        position: absolute;
+        bottom: 0;
+        background: #175c91;
+        color: white;
+        width: 51%;
+        left: 43%;
+        transform: translate(-50%);
+        padding-top: 14px;
+    }
+    .grid-item-content, .grid-item-buttons{
+        margin-bottom:0;
+        a{
+            color:white;
+        }
+    }
+}
+
+#main-banner-slider{
+    padding:0;
+    .grid-item-image{
+        width:60%;
+    }
+    .slider__inner{
+        width:40%;
+        background: #0a5a8c;
+        height:100%;
+        align-items:center;
+        justify-content:center;
+        flex-direction:column;
+        align-items: flex-start;
+    }
+    .grid-item-title{
+        &:after{
+            content:unset;
+        }
+        color: white;
+        font-size: 2.7em;
+        font-weight: 600;
+    }
+    .grid-item-content{
+        padding-left: 44px;
+        font-size: 23px;
+        color: white;
+        margin-bottom:0;
+    }
+    .grid-item-buttons a{
+        background: #2ab0bb;
+        padding: 13px;
+        color: white;
+        margin-left: 22px;
+    }
+}
+
+section.start-career{
+    .grid-item-content{
+        color: white;
+    }
+    .grid-item{
+        justify-content:center;
+    }
+    background: #0c5588 !important;
+    .grid-item-title{
+        &:after{
+            content:unset;
+        }
+        color: white;
+        font-size: 34px;
+        font-weight: 400;
+        padding-left:24px !important;
+    }
+    .grid-item-buttons a{
+        color: white;
+        border: 1px solid white;
+        padding: 10px 20px;
+    }
+}
+
+
+// Flex
+.d-flex{
+    display:flex;
+    // align-items:center;
+}
+
+
+// FOUR Columns
+
+@media only screen and (min-width: 761px){
+    .grid-col-4 .grid-item {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+    .block.start-career .grid-col-2 .grid-item:first-child{
+        flex: 0 0 30%;
+        max-width: 30%;
+    }
+    .block.start-career .grid-col-2 .grid-item:last-child{
+        max-width:70%;
+        flex: 0 0 70%;
+    }
+
+}

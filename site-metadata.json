@@ -104,6 +104,8 @@
     "footertop": {
         "type": "footertop",
         "mobile": "9710823803",
-        "content": "Ajith Kumar"
+        "content": "Stay connected with Business Integra <a href=\"#!\" class=\"connect_now\">Conect Now</a>",
+        "mobile_number": "9710823803",
+        "social": []
     }
 }
