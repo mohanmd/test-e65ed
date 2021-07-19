@@ -193,6 +193,7 @@ models:
             - markets_grid
             - capability_grid
             - banner_section
+            - start_career
       - type: model
         name: seo
         models:
