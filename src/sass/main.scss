@@ -95,6 +95,10 @@
     .grid-item-image img{
         width:100%;
     }
+    .grid-item-inside{
+        flex-grow:inherit;
+        padding-bottom:0;
+    }
 }
 .card-content-actions {
     position: absolute;
