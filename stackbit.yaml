@@ -832,5 +832,5 @@ models:
           models:
             - grid_item
         label: Grid Items
-      - name: ''
+      - name: class
         type: string
