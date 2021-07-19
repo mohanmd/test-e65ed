@@ -77,7 +77,13 @@
         margin-top:1em;
     }
 }
-#capability_grid{}
+#capability_grid .grid-item-title {
+        &:after{
+            content:unset;
+        }
+        color: #1b67b2;
+        font-size: 18px;
+    }
 
 
 // FOUR Columns
