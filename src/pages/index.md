@@ -98,7 +98,7 @@ sections:
     section_id: capability_grid
     col_number: two
     grid_items:
-      - title: lorem-ipsum
+      - title: MISSION SUPPORT SERVICES
         title_url: lorem-ipsum
         image_alt: lorem-ipsum
         content: >-
