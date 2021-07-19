@@ -53,7 +53,7 @@ export default class AboutGrid extends React.Component {
                 )}
 
               
-                <Slider {...settings}>
+                <Slider {...settings} className="arrow_top">
                     {_.map(_.get(section, 'grid_items', null), (item, item_idx) => (
                       <div key={item_idx} className="grid-item">
                         <div className="grid-item-inside">

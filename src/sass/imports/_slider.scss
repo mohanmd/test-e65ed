@@ -1,0 +1,18 @@
+.slick-slider .slick-next {
+    right: 17px;
+    left: inherit;
+}
+
+.slick-slider .slick-prev {
+    right: 48px;
+    left: inherit;
+}
+.slick-slider .slick-arrow, .slick-slider .slick-arrow:hover, .slick-slider .slick-arrow:focus{
+    top: -14px;
+    background: $theme-blue;
+    height: 25px;
+    border-radius: 3px;
+}
+.slick-prev:before, .slick-next:before{
+    font-family: inherit;
+}
