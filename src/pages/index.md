@@ -127,7 +127,7 @@ sections:
   - section_is: main-banner-slider
     col_number: one
     grid_items:
-      - title: lorem-ipsum
+      - title: 'Start a Careers, Hire a Star'
         title_url: lorem-ipsum
         image_alt: lorem-ipsum
         content: >-
