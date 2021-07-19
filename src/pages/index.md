@@ -11,7 +11,7 @@ sections:
           andLive Person Announce aNew
           360° Partnership
         actions:
-          - label: lorem-ipsum
+          - label: Read More
             url: '#'
             style: link
             icon_class: dev
