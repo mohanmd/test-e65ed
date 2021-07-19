@@ -146,6 +146,7 @@ sections:
         type: grid_item
         image: images/Footer img.png
     type: start_career
+    class: main-banner-slider
 seo:
   title: Stackbit Libris Theme
   description: The preview of the Libris theme
