@@ -12,6 +12,12 @@ sections:
       - label: Get Started
         url: /docs
         style: primary
+  - title: lorem-ipsum
+    section_id: lorem-ipsum
+    subtitle: lorem-ipsum
+    col_number: one
+    grid_items: []
+    type: banner_section
   - title: Capabilities
     section_id: capability_grid
     col_number: two
@@ -115,12 +121,6 @@ sections:
         type: grid_item
         image: images/Alliance and partnership.jpg
     type: about_grid
-  - title: lorem-ipsum
-    section_id: lorem-ipsum
-    subtitle: lorem-ipsum
-    col_number: one
-    grid_items: []
-    type: banner_section
 seo:
   title: Stackbit Libris Theme
   description: The preview of the Libris theme
