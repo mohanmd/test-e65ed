@@ -33,7 +33,7 @@ export default class BannerSection extends React.Component {
                         </div>
                         )}
 
-                        <div class="slider__inner">
+                        <div class="slider__inner d-flex">
                             {_.get(item, 'title', null) && (
                             <h3 className="grid-item-title line-left">
                             {_.get(item, 'title_url', null) ? (
