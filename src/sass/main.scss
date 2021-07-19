@@ -79,7 +79,6 @@
 
 // Capability Grid
 #capability_grid {
-    
     .grid-item-title{
         &:after{
             content:unset;
@@ -89,7 +88,7 @@
         left: 31px;
         font-size: 31px;
         color: white;
-        text-shadow: rgb(56 55 55) 3px 3px 5px;
+        text-shadow: 3px 3px 1px #383737;
     }
     
     color: #1b67b2;
