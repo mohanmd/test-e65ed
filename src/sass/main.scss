@@ -162,6 +162,9 @@
 section.start-career{
     background: #0c5588 !important;
     .grid-item-title{
+        &:after{
+            content:unset;
+        }
         color: white;
         font-size: 34px;
         font-weight: 400;
