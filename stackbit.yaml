@@ -825,4 +825,6 @@ models:
         required: true
         default: one
       - name: grid_items
-        type: string
+        type: list
+        items:
+          type: string
