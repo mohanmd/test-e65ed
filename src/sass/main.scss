@@ -99,8 +99,7 @@
         flex-grow:inherit;
         padding-bottom:0;
     }
-}
-.card-content-actions {
+    .card-content-actions {
     position: absolute;
     bottom: 0;
     background: #175c91;
@@ -109,6 +108,8 @@
     left: 50%;
     transform: translate(-50%);
 }
+}
+
 
 
 // FOUR Columns
