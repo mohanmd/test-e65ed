@@ -768,10 +768,3 @@ models:
           models:
             - grid_item
         label: Grid items
-  banner_section:
-    type: object
-    label: banner_section
-    fields:
-      - name: title
-        type: string
-        label: Title
