@@ -130,17 +130,11 @@ sections:
       - title: 'Start a Careers, Hire a Star'
         title_url: lorem-ipsum
         image_alt: lorem-ipsum
-        content: >-
-          ## Lorem ipsum
+        content: |+
+          Lorazepam, sold under the brand names Ativan
+          and Lorazepam Macure among others, is a
+          benzodiazepine medication.
 
-
-          Lorem ipsum dolor sit amet, **consectetur adipiscing elit**, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-
-          - Lorem ipsum
-
-          - dolor sit amet
         actions: []
         type: grid_item
     type: start_career
