@@ -4,7 +4,7 @@ sections:
   - section_id: main-banner-slider
     col_number: one
     grid_items:
-      - title: lorem-ipsum
+      - title: Business Integra
         title_url: '#'
         image_alt: lorem-ipsum
         content: >-
