@@ -783,3 +783,6 @@ models:
       - name: subtitle
         type: string
         label: Sub title
+        description: The subtitle of the section
+      - name: ''
+        type: string
