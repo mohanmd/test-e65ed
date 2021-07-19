@@ -12,6 +12,7 @@ sections:
           360° Partnership
         actions: []
         type: grid_item
+        image: images/Banner image.jpg
     type: banner_section
   - title: Capabilities
     section_id: capability_grid
