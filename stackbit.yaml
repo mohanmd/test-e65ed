@@ -192,6 +192,7 @@ models:
             - about_grid
             - markets_grid
             - capability_grid
+            - banner_section
       - type: model
         name: seo
         models:
