@@ -768,24 +768,3 @@ models:
           models:
             - grid_item
         label: Grid items
-  banner_section:
-    type: object
-    label: banner_section
-    fields:
-      - name: title
-        type: string
-        label: Title
-        description: The title of the section.
-      - name: section_id
-        type: string
-        label: Section Id
-        description: A unique identifier of the section, must not contain whitespace
-      - name: subtitle
-        type: string
-        label: Sub title
-        description: The subtitle of the section
-      - name: col_number
-        type: enum
-        options:
-          - label: ''
-            value: ''
