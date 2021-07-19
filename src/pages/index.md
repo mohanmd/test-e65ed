@@ -101,17 +101,10 @@ sections:
       - title: MISSION SUPPORT SERVICES
         title_url: lorem-ipsum
         image_alt: lorem-ipsum
-        content: >-
-          ## Lorem ipsum
-
-
-          Lorem ipsum dolor sit amet, **consectetur adipiscing elit**, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-
-          - Lorem ipsum
-
-          - dolor sit amet
+        content: |
+          Business Integra provides
+          wide-ranging mission
+          support to institutions
         actions: []
         type: grid_item
         image: images/Mission support service.jpg
