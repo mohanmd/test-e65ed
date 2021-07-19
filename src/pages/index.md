@@ -125,7 +125,7 @@ sections:
         image: images/Alliance and partnership.jpg
     type: about_grid
   - section_is: main-banner-slider
-    col_number: one
+    col_number: two
     grid_items:
       - title: 'Start a Careers, Hire a Star'
         title_url: lorem-ipsum
