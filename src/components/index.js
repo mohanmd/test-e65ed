@@ -15,6 +15,7 @@ import Submenu from './Submenu';
 import Layout from './Layout';
 import AboutGrid from './AboutGrid';
 import MarketsGrid from './MarketsGrid';
+import CapabilityGrid from './CapabilityGrid';
 
 export {
     ActionLink,
@@ -33,7 +34,8 @@ export {
     Layout,
     FooterTop,
     AboutGrid,
-    MarketsGrid
+    MarketsGrid,
+    CapabilityGrid
     
 };
 
@@ -54,5 +56,6 @@ export default {
     Layout,
     FooterTop,
     AboutGrid,
-    MarketsGrid
+    MarketsGrid,
+    CapabilityGrid
 };

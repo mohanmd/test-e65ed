@@ -53,15 +53,7 @@
     padding-left:0;
     padding-right:0;
     position: relative;
-    .grey-sec:after{
-        content: '';
-        background: gray;
-        height: 284px;
-        width: 100%;
-        position: absolute;
-        bottom: -24px;
-        z-index: 1;
-    }
+    
     .block-content{
         position: relative;
         z-index: 2;
@@ -81,6 +73,38 @@
         margin-right:0;
         text-align:left;
     }
+    .grid-item-content{
+        margin-top:1em;
+    }
+}
+
+// Capability Grid
+#capability_grid {
+    .grid-item-title{
+        &:after{
+            content:unset;
+        }
+        position: absolute;
+        top: 0;
+        left: 0;
+        color: white;
+        text-shadow: 3px 3px 1px #383737;
+    }
+    
+    color: #1b67b2;
+    font-size: 18px;
+    .grid-item-image img{
+        width:100%;
+    }
+}
+.card-content-actions {
+    position: absolute;
+    bottom: 0;
+    background: #175c91;
+    color: white;
+    width: 51%;
+    left: 50%;
+    transform: translate(-50%);
 }
 
 
