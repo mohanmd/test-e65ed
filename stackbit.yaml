@@ -800,3 +800,6 @@ models:
           models:
             - grid_item
         label: Grid Items
+  start_career:
+    type: object
+    label: start_career
