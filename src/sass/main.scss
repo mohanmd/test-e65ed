@@ -79,6 +79,11 @@
 
 // Capability Grid
 #capability_grid {
+    .block-header{
+        margin-left:0;
+        margin-right:0;
+        text-align:left;
+    }
     .grid-item-title{
         &:after{
             content:unset;
