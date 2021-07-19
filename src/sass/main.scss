@@ -82,6 +82,11 @@
         &:after{
             content:unset;
         }
+        position: absolute;
+        top: 0;
+        left: 0;
+        color: white;
+        text-shadow: 3px 3px 1px #383737;
     }
     
     color: #1b67b2;
