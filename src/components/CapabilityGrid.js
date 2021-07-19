@@ -45,18 +45,20 @@ export default class CapabilityGrid extends React.Component {
                             </h3>
                             )}
                           
-                            {_.get(item, 'content', null) && (
-                            <div className="grid-item-content">
-                            {markdownify(_.get(item, 'content', null))}
-                            </div>
-                            )}
+                            <div class="card-content-actions">
+                                {_.get(item, 'content', null) && (
+                                <div className="grid-item-content">
+                                {markdownify(_.get(item, 'content', null))}
+                                </div>
+                                )}
 
-                            
-                            {_.get(item, 'actions', null) && (
-                            <div className="grid-item-buttons">
-                            <CtaButtons {...this.props} actions={_.get(item, 'actions', null)} />
+                                
+                                {_.get(item, 'actions', null) && (
+                                <div className="grid-item-buttons">
+                                <CtaButtons {...this.props} actions={_.get(item, 'actions', null)} />
+                                </div>
+                                )}
                             </div>
-                            )}
                         </div>
                         </div>
                         ))}
