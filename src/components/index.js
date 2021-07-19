@@ -16,7 +16,8 @@ import Layout from './Layout';
 import AboutGrid from './AboutGrid';
 import MarketsGrid from './MarketsGrid';
 import CapabilityGrid from './CapabilityGrid';
-BannerSection
+import BannerSection from './BannerSection';
+
 export {
     ActionLink,
     CtaButtons,
@@ -35,7 +36,8 @@ export {
     FooterTop,
     AboutGrid,
     MarketsGrid,
-    CapabilityGrid
+    CapabilityGrid,
+    BannerSection
     
 };
 
@@ -57,5 +59,6 @@ export default {
     FooterTop,
     AboutGrid,
     MarketsGrid,
-    CapabilityGrid
+    CapabilityGrid,
+    BannerSection
 };
