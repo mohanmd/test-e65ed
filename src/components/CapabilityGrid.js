@@ -52,11 +52,11 @@ export default class CapabilityGrid extends React.Component {
                             )}
 
                             
-                            {/* {_.get(item, 'actions', null) && (
+                            {_.get(item, 'actions', null) && (
                             <div className="grid-item-buttons">
                             <CtaButtons {...this.props} actions={_.get(item, 'actions', null)} />
                             </div>
-                            )} */}
+                            )}
                         </div>
                         </div>
                         ))}
