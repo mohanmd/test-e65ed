@@ -10,12 +10,13 @@ import "slick-carousel/slick/slick-theme.css";
 export default class MarketsGrid extends React.Component {
     render() {
         var settings = {
-            dots: true,
+            dots: false,
             infinite: true,
             autoplay: true,
-            autoplaySpeed: 1000, 
+            autoplaySpeed: 4000,     
+            speed: 1000,
             pauseOnHover: true, 
-            slidesToShow: 4,
+            slidesToShow: 3,
             arrows:true,
             slidesToScroll: 1,
             slidesToScroll: 1,
