@@ -136,7 +136,7 @@ sections:
           benzodiazepine medication.
 
         actions:
-          - label: lorem-ipsum
+          - label: Apply Noe
             url: '#'
             style: link
             icon_class: dev
