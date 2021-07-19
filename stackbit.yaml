@@ -808,3 +808,5 @@ models:
         type: string
         label: Title
         description: Title
+      - name: ''
+        type: string
