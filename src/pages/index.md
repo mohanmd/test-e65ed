@@ -137,6 +137,7 @@ sections:
 
         actions: []
         type: grid_item
+        image: images/Footer img.png
     type: start_career
 seo:
   title: Stackbit Libris Theme
