@@ -38,7 +38,7 @@ export {
     AboutGrid,
     MarketsGrid,
     CapabilityGrid,
-    BannerSection
+    BannerSection,
     StartCareer
     
 };
@@ -62,6 +62,6 @@ export default {
     AboutGrid,
     MarketsGrid,
     CapabilityGrid,
-    BannerSection
+    BannerSection,
     StartCareer
 };
