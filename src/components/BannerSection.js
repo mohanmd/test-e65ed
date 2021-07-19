@@ -26,7 +26,7 @@ export default class BannerSection extends React.Component {
                   <div className={classNames('grid', {'grid-col-2': _.get(section, 'col_number', null) === 'two', 'grid-col-3': _.get(section, 'col_number', null) === 'three'})}>
                     {_.map(_.get(section, 'grid_items', null), (item, item_idx) => (
                     <div key={item_idx} className="grid-item">
-                      <div className="grid-item-inside">
+                      <div className="d-flex">
                         {_.get(item, 'image', null) && (
                         <div className="grid-item-image">
                           <img src={withPrefix(_.get(item, 'image', null))} alt={_.get(item, 'image_alt', null)} />
