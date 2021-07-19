@@ -126,7 +126,6 @@ sections:
     type: about_grid
   - title: 'Start a Careers, Hire a Star'
     section_is: main-banner-slider
-    subtitle: lorem-ipsum
     col_number: one
     grid_items: []
     type: start_career
