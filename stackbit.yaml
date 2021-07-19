@@ -834,3 +834,4 @@ models:
         label: Grid Items
       - name: class
         type: string
+        label: Class Name
