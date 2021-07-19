@@ -73,7 +73,13 @@
         margin-right:0;
         text-align:left;
     }
-    .grid-item-content{
+    .grid-item-content.grid-item-title {
+        &:after{
+            content:unset;
+        }
+        color: #1b67b2;
+        font-size: 18px;
+    }{
         margin-top:1em;
     }
 }
