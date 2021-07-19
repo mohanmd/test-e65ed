@@ -32,6 +32,28 @@ export default class BannerSection extends React.Component {
                           <img src={withPrefix(_.get(item, 'image', null))} alt={_.get(item, 'image_alt', null)} />
                         </div>
                         )}
+
+                        <div class="slider__inner">
+                            {_.get(item, 'title', null) && (
+                        <h3 className="grid-item-title line-left">
+                          {_.get(item, 'title_url', null) ? (
+                          <Link to={withPrefix(_.get(item, 'title_url', null))}>{_.get(item, 'title', null)}</Link>
+                          ) : 
+                          _.get(item, 'title', null)
+                          }
+                        </h3>
+                        )}
+                        {_.get(item, 'content', null) && (
+                        <div className="grid-item-content">
+                          {markdownify(_.get(item, 'content', null))}
+                        </div>
+                        )}
+                        {_.get(item, 'actions', null) && (
+                        <div className="grid-item-buttons">
+                          <CtaButtons {...this.props} actions={_.get(item, 'actions', null)} />
+                        </div>
+                        )}
+                        </div>
                         
                       </div>
                     </div>
