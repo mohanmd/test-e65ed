@@ -772,5 +772,5 @@ models:
     type: object
     label: banner_section
     fields:
-      - name: ''
+      - name: title
         type: string
