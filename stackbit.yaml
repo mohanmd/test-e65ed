@@ -787,10 +787,8 @@ models:
       - name: col_number
         type: enum
         options:
-          - label: one
-            value: one
-          - label: ''
-            value: ''
+          - one
+          - two
         label: Columns
         description: The number of grid items in a row
         default: one
