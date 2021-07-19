@@ -813,6 +813,9 @@ models:
         type: string
         label: Section Id
         description: A unique identifier of the section, must not contain whitespace
+      - name: class
+        type: string
+        label: Class Name
       - name: subtitle
         type: string
         label: Sub title
@@ -832,6 +835,3 @@ models:
           models:
             - grid_item
         label: Grid Items
-      - name: class
-        type: string
-        label: Class Name
