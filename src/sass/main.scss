@@ -58,9 +58,9 @@
         position: relative;
         z-index: 2;
     }
-    .grid-item-image img{
-        width:100%;
-    }
+    // .grid-item-image img{
+    //     width:100%;
+    // }
     // .grid-item-title {
     //     &:after{
     //         content:unset;
@@ -83,6 +83,9 @@
     }
     color: #1b67b2;
     font-size: 18px;
+    .grid-item-image img{
+        width:100%;
+    }
 }
 
 
