@@ -102,38 +102,69 @@ sections:
       - label: Get Started
         url: /docs/getting-started/installation
         style: primary
+  - title: Markets
+    section_id: integra_markets
+    col_number: four
+    grid_items:
+      - title: Federal
+        image_alt: lorem-ipsum
+        content: |
+          We've collected hundreds
+          of billions of measurements
+          in space
+        actions: []
+        type: grid_item
+        image: images/Federal.jpg
+      - title: Department of Defence
+        title_url: lorem-ipsum
+        image_alt: lorem-ipsum
+        content: |
+          We've collected hundreds
+          of billions of measurements
+          in space.
+        actions: []
+        type: grid_item
+        image: images/Department of defence.jpg
+      - title: Intelligence Community
+        title_url: lorem-ipsum
+        image_alt: lorem-ipsum
+        content: |
+          We've collected hundreds
+          of billions of measurements
+          in space.
+        actions: []
+        type: grid_item
+        image: images/Intelligence community.jpg
+      - title: NATO
+        title_url: lorem-ipsum
+        image_alt: lorem-ipsum
+        content: |
+          We've collected hundreds
+          of billions of measurements
+          in space
+        actions: []
+        type: grid_item
+        image: images/NATO.jpg
+    type: markets_grid
   - title: About Business Integra
-    section_id: lorem-ipsum
+    section_id: about_integra
     col_number: three
     grid_items:
       - title: Certifications and Apraisels
-        title_url: lorem-ipsum
         image_alt: lorem-ipsum
         actions: []
         type: grid_item
-        image: images/banner7.jpg
+        image: images/certification and appraisal.jpg
       - title: Leadership
-        title_url: lorem-ipsum
         image_alt: lorem-ipsum
         actions: []
         type: grid_item
-        image: images/banner7.jpg
-      - title: lorem-ipsum
-        title_url: lorem-ipsum
+        image: images/Leadership.jpg
+      - title: Alliences & Partnerships
         image_alt: lorem-ipsum
-        content: >-
-          ## Lorem ipsum
-
-
-          Lorem ipsum dolor sit amet, **consectetur adipiscing elit**, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-
-          - Lorem ipsum
-
-          - dolor sit amet
         actions: []
         type: grid_item
+        image: images/Alliance and partnership.jpg
     type: about_grid
 seo:
   title: Stackbit Libris Theme

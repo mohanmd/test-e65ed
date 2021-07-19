@@ -16,3 +16,79 @@
 @import "imports/footer";
 @import "imports/palettes";
 //@import "imports/prism";
+
+
+// About Section
+#about_integra{
+    .block-header{
+        margin-left:0;
+        margin-right:0;
+        text-align:left;
+    }
+    .grid-item-image img{
+        width:100%;
+        border-radius:0;
+    }
+    .grid-item-title{
+        &:after{
+            content:unset;
+        }
+        background: #33b0bb;
+        margin: 0;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: white;
+        font-size: 22px;
+        text-align: center;
+    }
+    .grid-item-inside{
+
+        flex-grow:inherit;
+        padding-bottom:0;
+    }
+}
+
+// MArketing Section
+#integra_markets{
+    padding-left:0;
+    padding-right:0;
+    position: relative;
+    .grey-sec:after{
+        content: '';
+        background: gray;
+        height: 284px;
+        width: 100%;
+        position: absolute;
+        bottom: -24px;
+        z-index: 1;
+    }
+    .block-content{
+        position: relative;
+        z-index: 2;
+    }
+    .grid-item-image img{
+        width:100%;
+    }
+    .grid-item-title {
+        &:after{
+            content:unset;
+        }
+        color: #1b67b2;
+        font-size: 18px;
+    }
+    .block-header{
+        margin-left:0;
+        margin-right:0;
+        text-align:left;
+    }
+}
+
+
+// FOUR Columns
+
+@media only screen and (min-width: 761px){
+    .grid-col-4 .grid-item {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+}

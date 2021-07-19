@@ -14,6 +14,7 @@ import SectionHero from './SectionHero';
 import Submenu from './Submenu';
 import Layout from './Layout';
 import AboutGrid from './AboutGrid';
+import MarketsGrid from './MarketsGrid';
 
 export {
     ActionLink,
@@ -31,7 +32,9 @@ export {
     Submenu,
     Layout,
     FooterTop,
-    AboutGrid
+    AboutGrid,
+    MarketsGrid
+    
 };
 
 export default {
@@ -50,5 +53,6 @@ export default {
     Submenu,
     Layout,
     FooterTop,
-    AboutGrid
+    AboutGrid,
+    MarketsGrid
 };
