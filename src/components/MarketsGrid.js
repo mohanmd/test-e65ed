@@ -4,8 +4,31 @@ import _ from 'lodash';
 import {classNames, htmlToReact, withPrefix, Link, markdownify} from '../utils';
 import CtaButtons from './CtaButtons';
 
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 export default class MarketsGrid extends React.Component {
     render() {
+        var settings = {
+            dots: true,
+            infinite: true,
+            autoplay: true,
+            autoplaySpeed: 1000, 
+            pauseOnHover: true, 
+            slidesToShow: 4,
+            arrows:true,
+            slidesToScroll: 1,
+            slidesToScroll: 1,
+            responsive: [
+            {
+                breakpoint: 800,
+                settings: {
+                slidesToShow: 1,
+                slidesToScroll:1
+                }
+            }
+            ]
+        };
         let section = _.get(this.props, 'section', null);
         console.log(section)
         // alert('sdfsdf')
@@ -13,20 +36,10 @@ export default class MarketsGrid extends React.Component {
             <section id={_.get(section, 'section_id', null)} className={classNames('block', 'block-grid', 'outer', {'has-header': _.get(section, 'title', null) || _.get(section, 'subtitle', null)})}>
                 <div class="grey-sec">
                     <div className="inner">
-                    {(_.get(section, 'title', null) || _.get(section, 'subtitle', null)) && (
-                    <div className="block-header inner-sm">
-                    {_.get(section, 'title', null) && (
-                    <h2 className="block-title">{_.get(section, 'title', null)}</h2>
-                    )}
-                    {_.get(section, 'subtitle', null) && (
-                    <p className="block-subtitle">{htmlToReact(_.get(section, 'subtitle', null))}</p>
-                    )}
-                    </div>
-                    )}
-                    {_.get(section, 'grid_items', null) && (
-                    <div className="block-content">
-                    <div className={classNames('grid', {'grid-col-2': _.get(section, 'col_number', null) === 'two', 'grid-col-3': _.get(section, 'col_number', null) === 'three','grid-col-4': _.get(section, 'col_number', null) === 'four'})}>
-                        {_.map(_.get(section, 'grid_items', null), (item, item_idx) => (
+
+
+                    <Slider {...settings}>
+                    {_.map(_.get(section, 'grid_items', null), (item, item_idx) => (
                         <div key={item_idx} className="grid-item">
                         <div className="grid-item-inside">
                             {_.get(item, 'image', null) && (
@@ -58,9 +71,7 @@ export default class MarketsGrid extends React.Component {
                         </div>
                         </div>
                         ))}
-                    </div>
-                    </div>
-                    )}
+                    </Slider>
                 </div>
                 </div>
             </section>
