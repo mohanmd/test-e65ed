@@ -160,6 +160,9 @@
 }
 
 section.start-career{
+    .grid-item{
+        justify-content:center;
+    }
     background: #0c5588 !important;
     .grid-item-title{
         &:after{
