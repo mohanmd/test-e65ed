@@ -122,7 +122,14 @@ sections:
           Business Integra provides
           wide-ranging mission
           support to institutions
-        actions: []
+        actions:
+          - label: lorem-ipsum
+            url: '#'
+            style: link
+            icon_class: dev
+            new_window: false
+            no_follow: false
+            type: action
         type: grid_item
         image: images/Information technology.jpg
     type: capability_grid
