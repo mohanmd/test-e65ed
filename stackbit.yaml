@@ -785,4 +785,7 @@ models:
         label: Sub title
         description: The subtitle of the section
       - name: col_number
-        type: string
+        type: enum
+        options:
+          - label: ''
+            value: ''
