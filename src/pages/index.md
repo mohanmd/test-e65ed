@@ -124,6 +124,7 @@ sections:
           support to institutions
         actions: []
         type: grid_item
+        image: images/Information technology.jpg
     type: capability_grid
   - title: Markets
     section_id: integra_markets
