@@ -106,7 +106,7 @@ sections:
           wide-ranging mission
           support to institutions
         actions:
-          - label: lorem-ipsum
+          - label: Read More
             url: '#'
             style: link
             icon_class: dev
