@@ -11,7 +11,7 @@ export default class StartCareer extends React.Component {
         console.log('sdfdsf')
         console.log(section)
         return (
-            <section id={_.get(section, 'section_id', null)} className= {classNames('block', 'start-career', 'block-grid', 'outer',{_.get(section, 'section_id', null)}, {'has-header': _.get(section, 'title', null) || _.get(section, 'subtitle', null)})}>
+            <section id={_.get(section, 'section_id', null)} className= {classNames('block', 'start-career', 'block-grid', 'outer', {'has-header': _.get(section, 'title', null) || _.get(section, 'subtitle', null)})}>
               {/* <div className="inner"> */}
                 {(_.get(section, 'title', null) || _.get(section, 'subtitle', null)) && (
                 <div className="block-header inner-sm">
